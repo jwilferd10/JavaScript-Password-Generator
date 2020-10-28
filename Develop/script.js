@@ -1,37 +1,33 @@
 //First: Execute a click event that fires up the prompts NOTE: REMEMBER TO INTERACT WITH PROMPT EVERY CHANGE
 //Second: User MUST choose a length of 8 - 128 characters for the password
-//Third: Create a series of prompts that execute after one another, if invalid option given return the user
-//Fourth: We need to find a way to accept the info given
-//Fifth: Make a password
+//Third: Create a series of  if prompts that execute after one another, if invalid option given return the user
+//Fourth: Find a method to accept user inputs for finale
+//Fifth: Create a function, likely math.(something) to randomize and generate password
 
 //REFERENCE THESE OPTIONS FURTHER DOWN THE CODE
-
 // ABCDEFGHIJKLMNOPQRSTUVWXYZ
 // abcdefghijklmnopqrstuvwxyz
-//1234567890
-//!@#$%^&*()_+
+// 1234567890
+// !@#$%&'()*+,^-./:;<=>?[]_`{~}|
 
 //GLOBAL VARIABLES
 
-//Lowercase letters
+// The global variables go in this order -> lowercase letters, capital letters, numbers, special characters, userChoices, randomPassword
 var lowerAns = false;
-// Capital letters
 var capitalAns = false;
-// Numbers
 var numbersAns = false;
-// Special Characters
 var specialAns = false;
-// userChoices remains empty
 var userChoices = "";
-// randomPassword
 var randomPassword;
 
+// These global variables will cover our characters/numbers
 var lower = "abcdefghijklmnopqrstuvwxyz";
 var capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers ="1234567890";
-var specialChar = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+var specialChar = "!@#$%&'()*+,^-./:;<=>?[]_`{~}|";
 
-// Executes when the red button is clicked, characters function handles options
+
+// Executes when the red button is clicked, finally realized to plug in generatePassword
 function generatePassword() {
 
   // set variables to start values 
@@ -61,7 +57,7 @@ function generatePassword() {
     userChoices = userChoices + specialChar;
   }
 
-  //Ask for lowercase
+  //Ask user if they want to use lowercase letters
   lowerAns = window.confirm("Do you need lowercase letters?");
 
   // if user confirms lowercase letters, add to userChoices
@@ -70,7 +66,7 @@ function generatePassword() {
     userChoices = userChoices + lower;
   }
 
-  //Ask for capital letters?
+  //Ask user if they want to use capital letters
   capitalAns = window.confirm("Do you need uppercase letters?");
 
   // if user confirms capital letters, add to userChoices
@@ -79,7 +75,7 @@ function generatePassword() {
     userChoices = userChoices + capital;
   }
 
-  //Ask for numbers?
+  //Ask user if they want to use numbers
   numbersAns = window.confirm("Do you want to add numbers?");
 
   // if user confirms numbers, add to userChoices
@@ -87,9 +83,9 @@ function generatePassword() {
     numbersAns = true;
     userChoices = userChoices + numbers;
   }
-  // If user does not pick a password selector request they use at least one valid selector and return them to selector questions
+  // If the user does not pick a password selector request they use at least one valid selector and return them to selector questions
   if (specialAns !=true && numbersAns !=true && capitalAns !=true && lowerAns !=true) {
-    window.alert("You need to pick at least one password selector");
+    window.alert("You must select at least one option! Please try again.");
     generatePassword();
   }
 
@@ -97,6 +93,7 @@ function generatePassword() {
   var randomPassword = ""
 
   // for loop to select a list of characters that are randomly chosen from the userChoices character preferences AND as long characterlength
+  
   // Remember: i starts at 0, i specified tries to match length, i++ adds
   for (var i = 0; i < characterlength; i++) {
      var random = Math.floor(Math.random() * userChoices.length);
@@ -108,13 +105,13 @@ function generatePassword() {
    return randomPassword;
 };   
   
-// Get references to the #generate element (IGNORE)
+// Get references to the #generate element (We'll likely be ignoring this)
 var generateBtn = document.querySelector("#generate");
 
 //Write password to the #password input
 function writePassword() {
  
-  //we'll poke generate password
+  //we'll likely use this.
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
