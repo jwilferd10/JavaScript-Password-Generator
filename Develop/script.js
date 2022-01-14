@@ -1,40 +1,12 @@
-//First: Execute a click event that fires up the prompts NOTE: REMEMBER TO INTERACT WITH PROMPT EVERY CHANGE
-//Second: User MUST choose a length of 8 - 128 characters for the password
-//Third: Create a series of  if prompts that execute after one another, if invalid option given return the user
-//Fourth: Find a method to accept user inputs for finale
-//Fifth: Create a function, likely math.(something) to randomize and generate password
-
-//REFERENCE THESE OPTIONS FURTHER DOWN THE CODE
-// ABCDEFGHIJKLMNOPQRSTUVWXYZ
-// abcdefghijklmnopqrstuvwxyz
-// 1234567890
-// !@#$%&'()*+,^-./:;<=>?[]_`{~}|
-
-//GLOBAL VARIABLES
-
-// The global variables go in this order -> lowercase letters, capital letters, numbers, special characters, userChoices, randomPassword
-var lowerAns = false;
-var capitalAns = false;
-var numbersAns = false;
-var specialAns = false;
-var userChoices = "";
-var randomPassword;
-
 // These global variables will cover our characters/numbers
 var lower = "abcdefghijklmnopqrstuvwxyz";
 var capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers ="1234567890";
 var specialChar = "!@#$%&'()*+,^-./:;<=>?[]_`{~}|";
 
-
 // Executes when the red button is clicked, finally realized to plug in generatePassword
 function generatePassword() {
 
-  // set variables to start values 
-  var lowerAns = false;
-  var capitalAns = false;
-  var numbersAns = false;
-  var specialAns = false;
   var userChoices = "";
 
   // Asking user for the length of the password
