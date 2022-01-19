@@ -65,8 +65,8 @@ let generatePassword = function() {
       passChars.push(getRandomChar(passwordOptions.upperCase));
     };
 
-    // ensure user chooses at least one option
-    if (getInteger !=true && getSpecialCharacters !=true && getLowerCase !=true && getUpperCase !=true) {
+    // if passInfo is empty then ensure the user chooses at least one option
+    if (!passInfo) {
       // notify user needs to select at least one option
       window.alert("You need to select at least one option, please try again!");
       // return user back to their questions
