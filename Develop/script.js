@@ -73,17 +73,22 @@ let generatePassword = function() {
       return generatePassword();
     };
 
-    // randomPassword is an empty string that the for loop will pass information in
-    let randomPassword = "";
-
-    // for loop grabs characterAmount to use
-    for (let i = 0; i < characterAmount; i++) {
-      //passInfo connects to charAt that uses both Math.floor and random to take the length of passInfo and randomize the results
-      randomPassword += passInfo[Math.floor(Math.random() * passInfo.length)];
+    // while/if there aren't enough characters 
+    while (passChars.length < characterAmount) {
+      // pick a random character from passInfo
+      passChars.push(getRandomChar(passInfo));
     };
 
-    // return password results
-    return randomPassword;
+    // shuffling the list of characters using Fisher-Yates algorithm
+    for (let i = passChars.length - 1; i > 0; i--) {
+      const swapIndex = Math.floor(Math.random() * (i + 1));
+      const temp = passChars[i];
+      passChars[i] = passChars[swapIndex];
+      passChars[swapIndex] = temp;
+    };
+
+    // return the password character array concatenated to a string
+    return passChars.join("");
   }
   // if user's response is invalid
   else {
