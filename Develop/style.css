@@ -25,11 +25,21 @@ body {
   padding-right: 20px;
 }
 
+/* Header Styles */
+
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+}
+
+header h1 {
+  border-bottom: 3px solid;
+  border-color: hsl(360, 91%, 36%);
+  padding-bottom: 10px;
+  margin: 0 auto 35px auto;
+  width: 30%;
 }
 
 /* Card Container Styles */
@@ -142,10 +152,24 @@ header {
   #password {
     font-size: 1rem;
   }
+
+  header h1 {
+    width: 50%;
+  }
 }
 
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
+  }
+
+  header h1 {
+    width: 70%;
+  }
+}
+
+@media (max-width: 380px) {
+  header h1 {
+    width: 85%;
   }
 }
