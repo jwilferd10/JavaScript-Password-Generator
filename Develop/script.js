@@ -94,8 +94,8 @@ let generatePassword = function() {
   else {
     // alert user
     window.alert("You need to provide a valid length!");
-    // return user back to their questions
-    return generatePassword();
+    // return user back to initialState
+    return initialState;
   }
 };
 
