@@ -12,7 +12,8 @@
   - [Contact Information](#e-mail-contact-information)
 
 ## :wave: Description: 
-<p>Originally named Friendly-Parakeet-Master, the JavaScript Password Generator was one of my first attempt at putting together a working app. It runs on a browser and features dynamically updated HTML and CSS that's powered by you guessed it.. JavaScript! As of 2022 I've come back to this project to give the code a facelift and rectify a few issues that were in the last version of this Password Generator. Please enjoy yourselves, thank you for stopping by, and happy coding.</p>
+<p> The JavaScript Password Generator runs on a browser and features dynamically updated HTML and CSS that's powered by you guessed it.. JavaScript! Users will be prompted with a series of questions to determine what parameters they would like to include in their password. Additionally users also have the capability to copy their password to clipboard by the push of a button. Thank you for stopping by and please enjoy yourselves. Happy Coding!
+</p>
   
 ## :book: User Story:
 **AS AN employee with access to sensitive data**
