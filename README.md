@@ -43,12 +43,13 @@ Main Resources:
 - JavaScript
 
 ## :minidisc: Installation and Usage:
-Install:
+### Install:
 - You can do this by clicking the *GREEN* button above and you can download it by ZIP or copy the SSH!
-Usage:
+### Usage:
 - Click "Generate Password"
 - Select what to include into password
 - Randomly generated password should then appear in center box
+- Copy to clipboard by clicking designated button
 
 ## :e-mail: Contact Information:
 - ### [jwilferd10](https://github.com/jwilferd10)
