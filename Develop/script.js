@@ -120,3 +120,13 @@ function writePassword() {
 
 // The event listener looks for a click to then look at the function writePassword
 generateBtn.addEventListener("click", writePassword);
+
+// Connected to Add To Clipboard button, will copy any text within the textarea
+let copyPass = function() {
+  // textarea's id value is tied to copyPass
+  const copyPass = document.getElementById("password");
+  // Add the value of copyPass into clipboard
+  navigator.clipboard.writeText(copyPass.value);
+  // Notify user
+  window.alert("Your password has been copied!");
+}
