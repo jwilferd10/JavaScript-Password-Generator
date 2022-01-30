@@ -1,3 +1,5 @@
+/* Global Style  */
+
 *,
 *::before,
 *::after {
@@ -29,6 +31,8 @@ header {
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
+
+/* Card Container Styles */
 
 .card {
   background-color: hsl(0, 0%, 100%);
@@ -72,6 +76,8 @@ header {
   clear: both;
 }
 
+/* Generate-Password btn Styles  */
+
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -84,14 +90,20 @@ header {
   line-height: 22px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
+  box-shadow: 0 9px  #999;
   text-align: center;
   cursor: pointer;
 }
 
-button[disabled] {
-  cursor: default;
-  background: #c0c7cf;
+.btn:hover {background-color: rgb(212, 11, 11)}
+
+.btn:active {
+  background-color: rgb(87, 4, 4);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
+
+/* Text styles  */
 
 .float-right {
   float: right;
@@ -117,6 +129,8 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
+/* Media Queries */
 
 @media (max-width: 690px) {
   .btn {
