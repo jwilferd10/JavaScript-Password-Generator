@@ -173,3 +173,15 @@ header h1 {
     width: 85%;
   }
 }
+
+@media (max-width: 350px) {
+  #password {
+    padding-bottom: 50%;
+  }
+}
+
+@media (max-width: 300px) {
+  #password {
+    padding-bottom: 100%;
+  }
+}
