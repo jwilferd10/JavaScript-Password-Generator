@@ -40,6 +40,7 @@ header h1 {
   padding-bottom: 10px;
   margin: 0 auto 35px auto;
   width: 30%;
+  margin-bottom: 5px;
 }
 
 /* Card Container Styles */
@@ -140,16 +141,15 @@ header h1 {
   overflow: hidden;
 }
 
-#footerImg {
+#gitHubImg {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  position: fixed;
-  padding: 20px 35px;
+  padding-bottom: 20px;
   left: 0;
   right: 0;
-  bottom: 0;
   text-align: left; 
+  width: 100px
 }
 
 /* Media Queries */
@@ -191,10 +191,6 @@ header h1 {
     padding-bottom: 45%;
     position: none;
   }
-
-  #footerimg {
-    width: 34%
-  }
 }
 
 @media (max-width: 380px) {
@@ -221,10 +217,6 @@ header h1 {
 @media (max-width: 329px) {
   #password {
     padding-bottom: 80%;
-  }
-  #footerImg {
-    width: 40%;
-    height: auto;
   }
 }
 
