@@ -189,6 +189,7 @@ header h1 {
 @media (max-width: 393) {
   #password {
     padding-bottom: 45%;
+    position: none;
   }
 
   #footerimg {
