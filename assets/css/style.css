@@ -222,7 +222,7 @@ header h1 {
   }
 }
 
-@media (max-width: 465) {
+@media (max-width: 490px) {
   #password {
     padding-bottom: 45%;
     position: none;
@@ -253,7 +253,7 @@ header h1 {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   #password {
     padding-bottom: 60%;
   }
