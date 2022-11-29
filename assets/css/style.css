@@ -233,9 +233,9 @@ header h1 {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
   .card {
-    margin-top: 30%
+    margin-top: 30%;
   }
 }
 
