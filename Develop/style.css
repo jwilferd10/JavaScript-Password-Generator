@@ -168,18 +168,15 @@ header h1 {
   }
 
   h2 {
-    font-size: 200%;
+    font-size: 125%;
     white-space: nowrap;
+    text-align: center;
   }
 }
 
 @media (max-width: 380px) {
   header h1 {
     width: 85%;
-  }
-  h2 {
-    font-size: 150%;
-    white-space: nowrap;
   }
 }
 
@@ -188,8 +185,9 @@ header h1 {
     padding-bottom: 50%;
   }
   h2 {
-    font-size: 125%;
+    font-size: 110%;
     white-space: nowrap;
+    text-align: center;
   }
 }
 
