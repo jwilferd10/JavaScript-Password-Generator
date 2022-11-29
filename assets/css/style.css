@@ -198,7 +198,7 @@ header h1 {
 
 @media (max-width: 350px) {
   #password {
-    padding-bottom: 50%;
+    padding-bottom: 60%;
   }
   h2 {
     font-size: 110%;
@@ -207,9 +207,9 @@ header h1 {
   }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 329px) {
   #password {
-    padding-bottom: 60%;
+    padding-bottom: 80%;
   }
   #footerImg {
     width: 60%;
