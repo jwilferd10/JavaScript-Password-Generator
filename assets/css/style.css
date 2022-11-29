@@ -140,7 +140,7 @@ header h1 {
   overflow: hidden;
 }
 
-#footerImg {
+#footerImg1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -150,6 +150,19 @@ header h1 {
   right: 0;
   bottom: 0;
   text-align: left; 
+}
+
+#footerImg2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  padding: 20px 35px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: left; 
+  display: none;
 }
 
 /* Media Queries */
@@ -198,12 +211,18 @@ header h1 {
 
 @media (max-width: 350px) {
   #password {
-    padding-bottom: 50%;
+    padding-bottom: 100%;
   }
   h2 {
     font-size: 110%;
     white-space: nowrap;
     text-align: center;
+  }
+  #footerImg1 {
+    display: none;
+  }
+  #footerImg2 {
+    display: block;
   }
 }
 
