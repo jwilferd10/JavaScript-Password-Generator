@@ -12,7 +12,7 @@
   - [Contact Information](#e-mail-contact-information)
 
 ## :wave: Description: 
-<p> The JavaScript Password Generator runs on a browser and features dynamically updated HTML and CSS that's powered by you guessed it.. JavaScript! Users will be prompted with a series of questions to determine what parameters they would like to include in their password. Additionally users also have the capability to copy their password to clipboard by the push of a button. Thank you for stopping by and please enjoy yourselves. Happy Coding!
+<p> The JavaScript Password Generator features dynamically updated HTML and CSS that's powered by you guessed it.. JavaScript! Users will be prompted with a series of questions to determine what parameters they would like to include in their password. Additionally users also have the capability to copy their password to clipboard by the push of a button. Finally, The JavaScript Password Generator works just fine on mobile. Give it a try and thank you for checking this app out, Happy Coding!
 </p>
   
 ## :book: User Story:
