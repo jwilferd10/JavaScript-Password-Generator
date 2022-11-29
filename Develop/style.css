@@ -178,6 +178,10 @@ header h1 {
   header h1 {
     width: 85%;
   }
+
+  #password {
+    padding-bottom: 50%;
+  }
 }
 
 @media (max-width: 350px) {
