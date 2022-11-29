@@ -55,6 +55,7 @@ header h1 {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  margin-top: 7%
 }
 
 .card-header::after {
@@ -143,6 +144,7 @@ header h1 {
 
 #gitHubImg {
   display: block;
+  position: absolute;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
@@ -154,7 +156,35 @@ header h1 {
 
 /* Media Queries */
 
+@media (max-width: 1400px) {
+  .card {
+    margin-top: 9%
+  }
+}
+
+@media (max-width: 1200px) {
+  .card {
+    margin-top: 10%
+  }
+}
+
+@media (max-width: 1060px) {
+  .card {
+    margin-top: 14%
+  }
+}
+
+@media (max-width: 760px) {
+  .card {
+    margin-top: 18%;
+  }
+}
+
 @media (max-width: 690px) {
+  .card {
+    margin-top: 20%;
+  }
+  
   .btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
@@ -167,6 +197,12 @@ header h1 {
 
   header h1 {
     width: 50%;
+  }
+}
+
+@media (max-width: 550px) {
+  .card {
+    margin-top: 24%
   }
 }
 
@@ -186,20 +222,34 @@ header h1 {
   }
 }
 
-@media (max-width: 393) {
+@media (max-width: 465) {
   #password {
     padding-bottom: 45%;
     position: none;
   }
+
+  .card {
+    margin-top: 28%;
+  }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
+  .card {
+    margin-top: 30%
+  }
+}
+
+@media (max-width: 400px) {
   header h1 {
     width: 85%;
   }
 
   #password {
     padding-bottom: 50%;
+  }
+  
+  .card {
+    margin-top: 32%;
   }
 }
 
@@ -211,6 +261,9 @@ header h1 {
     font-size: 110%;
     white-space: nowrap;
     text-align: center;
+  }
+  .card {
+    margin-top: 38%
   }
 }
 
@@ -227,5 +280,8 @@ header h1 {
   h2 {
     font-size: 100%;
     white-space: nowrap;
+  }
+  .card {
+    margin-top: 44%;
   }
 }
