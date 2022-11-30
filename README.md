@@ -12,7 +12,10 @@
   - [Contact Information](#e-mail-contact-information)
 
 ## :wave: Description: 
-<p> The JavaScript Password Generator features dynamically updated HTML and CSS that's powered by you guessed it.. JavaScript! Users will be prompted with a series of questions to determine what parameters they would like to include in their password. Additionally users also have the capability to copy their password to clipboard by the push of a button. Finally, The JavaScript Password Generator works just fine on mobile. Give it a try and thank you for checking this app out, Happy Coding!
+<p> 
+The JavaScript Password Generator is an app that can quickly create a randomized password for all your 🤫 secretive needs! Users will be prompted with multiple questions to determine what parameters they would like to include within their password. Users can also copy the generated password onto their clipboard for quick deployment. 
+
+This application works just fine on mobile devices, give it a try and generate a few passwords! Thanks so much for checking this Password Generator out, I hope this helps in anyway possible. Happy Coding! 
 </p>
   
 ## :book: User Story:
@@ -47,6 +50,13 @@ Main Resources:
 - You can do this by clicking the *GREEN* button above and you can download it by ZIP or copy the SSH!
 ### Usage:
 - Click "Generate Password"
+
+Or
+
+- Click on the box with "Your Secure Password"
+
+Then
+
 - Select what to include into password
 - Randomly generated password should then appear in center box
 - Copy to clipboard by clicking designated button
