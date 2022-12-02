@@ -5,15 +5,22 @@
 :computer: **Github Repository:** https://github.com/jwilferd10/JavaScript-Password-Generator
 
 ## :open_file_folder: Table of Contents:
+  - [Preview](#camera-preview)
   - [Description](#wave-description)
   - [User Story](#book-user-story)
   - [Resources Used](#floppy_disk-resources-used)
   - [Installation](#minidisc-installation-and-usage)
   - [Contact Information](#e-mail-contact-information)
 
+## :camera: Preview:
+  <p float="left">
+    <img src= "assets/img/passGenDesktop.jpg"  width="79%") />
+    <img src= "assets/img/passGenMobile400x887.jpg" width="20%") />
+  </p>
+
 ## :wave: Description: 
 <p> 
-The JavaScript Password Generator is an app that can quickly create a randomized password for all your 🤫 secretive needs! Users will be prompted with multiple questions to determine what parameters they would like to include within their password. Users can also copy the generated password onto their clipboard for quick deployment. 
+The JavaScript Password Generator is an app that can quickly create a randomized password for all your 🤫 secretive needs! Users will be prompted with multiple questions via window.alert to determine what parameters they would like to include within their password. Users can also copy the generated password onto their clipboard for quick deployment. 
 
 This application works just fine on mobile devices, give it a try and generate a few passwords! Thanks so much for checking this Password Generator out, I hope this helps in anyway possible. Happy Coding! 
 </p>
