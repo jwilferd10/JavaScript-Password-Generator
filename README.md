@@ -20,9 +20,10 @@
 
 ## :wave: Description: 
 <p> 
-The JavaScript Password Generator is an app that can quickly create a randomized password for all your 🤫 secretive needs! Users will be prompted with multiple questions via window.alert to determine what parameters they would like to include within their password. Users can also copy the generated password onto their clipboard for quick deployment. 
+The JavaScript Password Generator is an app that quickly creates a randomized password based on the users parameters. Users must choose a length between 8️⃣ - 1️⃣2️⃣8️⃣ characters and will then be prompted with multiple questions through window.alert's to determine the parameters for the generated password. Finally users can copy their generated password onto their clipboard for quick and easy deployment.
 
-This application works just fine on mobile devices, give it a try and generate a few passwords! Thanks so much for checking this Password Generator out, I hope this helps in anyway possible. Happy Coding! 
+This application should work just fine for mobile devices, for both desktop and mobile users can click on the center text area to start the program. Please, give it a try and generate a few passwords! Thanks so much for checking this Password Generator out, I hope this helps in anyway possible for all your 🤫 secretive needs. Happy Coding! 
+
 </p>
   
 ## :book: User Story:
