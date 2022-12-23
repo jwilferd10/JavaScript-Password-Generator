@@ -1,5 +1,7 @@
 # :zipper_mouth_face::book:A JavaScript Password Generator:book::zipper_mouth_face:
 
+### Need to quickly generate a password and copy it to your clipboard? Check me out! <br>
+
 :computer: **Live Deployment:** https://jwilferd10.github.io/JavaScript-Password-Generator/
 
 :computer: **Github Repository:** https://github.com/jwilferd10/JavaScript-Password-Generator
